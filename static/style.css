@@ -187,3 +187,8 @@ a, p, h4 {
   background: var(--azul--pal);
   color: var(--azul--pal);
 }
+.logo{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
