@@ -1,0 +1,7 @@
+Flask
+pylint
+black
+pytest
+pytest-cov
+requests
+debugpy
