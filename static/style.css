@@ -54,6 +54,7 @@ body {
   position: sticky;
   align-items: center;
   top: 0px;
+  justify-content: end;
 }
 .nav-item {
   display: flex;
@@ -160,3 +161,29 @@ code, pre {
   justify-self: bottom;
 }
 
+.btn {
+    border-radius: 5px;
+    color: #330C15;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 400;
+    letter-spacing: .5px;
+    margin: 0;
+    text-transform: uppercase;
+    
+    
+}
+
+.btn-alt {
+    border: 1px solid white;
+    padding: 10px 30px;
+}
+
+a, p, h4 {
+  text-decoration: none;
+  color: white;
+}
+.btn-alt:hover {
+  background: var(--azul--pal);
+  color: var(--azul--pal);
+}
