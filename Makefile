@@ -33,6 +33,13 @@ exec:
 delete:
 	docker rm flask-random
 	docker rmi flask-random
+clean:
+	find . -type d -name "__pycache__" -exec rm -rf {} +
+	find . -type f -name "*.pyc" -delete
+	find . -type f -name "*.pyo" -delete
+	find . -type f -name ".coverage" -delete
+	rm -rf htmlcov/
+	rm -rf .pytest_cache/
 
 
 hello:# write for prove function of this file
