@@ -67,11 +67,12 @@
         }
 
         .section-title::before {
-            counter-increment: section;
-            content: "0" counter(section) ".";
-            margin-right: 10px;
+            counter-increment: none;
+            content: "[]" /*counter(section) "."*/;
+            margin-right: 5px;
+             font-size: 30px;
             color: var(--accent-color);
-            font-weight: 400;
+            font-weight: 700;
         }
 
         .section-title h2 {
