@@ -52,7 +52,7 @@
         .container {
             max-width: 1200px;
             margin: 0 auto;
-            padding: 0 40px;
+            padding: 0 20px;
         }
 
         .section {
@@ -109,15 +109,17 @@
             color: var(--accent-color);
             font-family: var(--font-mono);
             z-index: 1001;
+            height: 100%;
         }
 
         .nav-links {
             display: flex;
             list-style: none;
+            padding: 0%;
         }
 
         .nav-links li {
-            margin-left: 40px;
+            margin-left: 5px;
         }
 
         .nav-links a {
@@ -434,6 +436,7 @@
         @media (max-width: 1080px) {
             .container {
                 padding: 0 30px;
+                width: 100%;
             }
             
             .hero-content h2 {
@@ -457,6 +460,7 @@
         @media (max-width: 768px) {
             .container {
                 padding: 0 20px;
+                width: 100%;
             }
             
             .mobile-menu-btn {
@@ -552,7 +556,7 @@
 
         .log{
             display: flex;
-            width: 30%;
+            width: 15rem;
             flex-direction: row;
             justify-content: start;
             align-items: start;   
